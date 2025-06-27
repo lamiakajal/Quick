@@ -1,0 +1,143 @@
+/* google fonts linking here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+/* common css start */
+:root {
+  --black: #0f2656;
+  --green: #008aff;
+  --fff: #ffffff;
+
+  --pop: "Poppins", sans-serif;
+  --rob: "Roboto", sans-serif;
+}
+body {
+  font-family: var(--pop);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+}
+/* common css end */
+/* Header Section Start Here */
+header {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: var(--fff);
+}
+.menu ul li a {
+  padding: 0 20px !important;
+  color: var(--black);
+}
+.menu ul li a:hover {
+  color: var(--green);
+}
+/* Header Section End Here */
+/* Banner Section Start Here */
+.banner {
+  padding: 60px 0;
+}
+.container-b {
+  width: 55%;
+  margin: 0 auto;
+}
+.b-content {
+  text-align: center;
+  font-family: sans-serif;
+}
+.b-content h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0;
+}
+.b-content h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--green);
+  margin: 10px 0;
+}
+.b-content p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 23px;
+  word-spacing: 1px;
+}
+.b-img {
+  margin-top: 50px;
+}
+/* Banner Section End Here */
+/* Success Section Start Here */
+.success {
+  padding: 60px 0;
+}
+.s-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #f15767;
+  margin: 0 0 10px;
+}
+.s-left p {
+  color: var(--black);
+  margin: 0;
+  line-height: 25px;
+  word-spacing: 1px;
+}
+
+.s-right h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 50px;
+  margin: 0;
+}
+/* Success Section End Here */
+/* Feature Section Start Here */
+.feature {
+  padding: 60px 0px;
+}
+.inner-feature {
+  margin: 0px 15px;
+  padding: 40px 25px;
+}
+.inner-feature .img-fluid {
+  width: 100%;
+  height: 200px;
+}
+.inner-feature h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--black);
+  margin: 15px 0px 10px 0px;
+}
+.inner-feature p {
+  line-height: 24px;
+}
+.cl1 {
+  background: #fbe9eb;
+}
+.cl2 {
+  background: #eaf7f3;
+}
+.cl3 {
+  background: #fdf5e7;
+}
+
+/* Feature Section End Here */
+/* Footer Section Start Here */
+.footer {
+  padding: 15px 0px;
+  background: var(--green);
+}
+.footer p {
+  line-height: 24px;
+  color: #88c1ff;
+}
+.footer p a {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--fff);
+}
+
+/* Footer Section End Here */
